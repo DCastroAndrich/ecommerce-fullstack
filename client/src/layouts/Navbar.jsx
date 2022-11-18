@@ -5,10 +5,10 @@ import Searchbar from "../components/Searchbar";
 
 const NavBar = () => {
   return (
-    <div className="h-20 flex flex-row justify-between items-center bg-slate-600 px-4">
+    <div className="flex h-20 flex-row items-center justify-between px-4">
       <Searchbar />
       <Logo />
-      <Navmenu/>
+      <Navmenu />
     </div>
   );
 };

@@ -4,9 +4,9 @@ import SearchIcon from "@mui/icons-material/Search";
 const Searchbar = () => {
   return (
     <div className="w-1/3">
-      <div className="flex flex-row justify-between items-center h-1/2 w-1/2 border rounded bg-white">
+      <div className="flex h-1/2 w-1/2 flex-row items-center justify-between border-2  bg-white">
         <input type="search" className="outline-none" />
-        <SearchIcon />
+        <SearchIcon fontSize="small" color="warning" />
       </div>
     </div>
   );

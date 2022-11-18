@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Logo = () => {
   return (
-    <div className='text-center w-1/3'>
-        <h1>RB-18</h1>
+    <div className="w-1/3 text-center text-3xl font-bold">
+      <h1>BLACK HOUND</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;
