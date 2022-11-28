@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../components/Logo";
 import Navmenu from "../components/Navmenu";
 import Searchbar from "../components/Searchbar";

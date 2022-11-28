@@ -1,11 +1,10 @@
-import React from "react";
 
 const Slider = (props) => {
   return (
     <div className="flex h-screen w-screen items-center">
       <div className="h-full " style={{ backgroundColor: props.bg }}>
         <img
-          className="h-4/5"
+          className="h-full"
           src={props.img} />
       </div>
 

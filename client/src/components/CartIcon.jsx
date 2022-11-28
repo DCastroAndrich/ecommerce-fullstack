@@ -1,5 +1,4 @@
 import { Badge } from "@mui/material";
-import React from "react";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const CartIcon = () => {
