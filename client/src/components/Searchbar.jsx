@@ -6,7 +6,7 @@ const Searchbar = () => {
     <div className="w-1/3">
       <div className="flex h-1/2 w-1/2 flex-row items-center justify-between border-2  bg-white">
         <input type="search" className="outline-none" />
-        <SearchIcon fontSize="small" color="warning" />
+        <SearchIcon fontSize="small" color="secondary" />
       </div>
     </div>
   );
