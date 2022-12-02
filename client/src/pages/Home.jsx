@@ -7,14 +7,14 @@ import SliderContainer from "../layouts/SliderContainer";
 
 const Home = () => {
   return (
-    <div>
-      <Announcement />
-      <NavBar />
+    <>
+      <Announcement/>
+      <NavBar/>
       <SliderContainer />
       <CategoriesContainer />
       <PopularProductsContainer />
-      <Footer />
-    </div>
+      <Footer/>
+    </>
   );
 };
 
