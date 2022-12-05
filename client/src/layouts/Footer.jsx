@@ -49,15 +49,15 @@ const Footer = () => {
 
       <div className="flex-1 p-5">
         <h3 className="mb-3 text-2xl font-medium">Contact</h3>
-        <div className="mb-2">
-          <MapIcon style={{ marginRight: "10px" }} /> 31 e/ 694 y 695, Ignacio
+        <div className="mb-2 mr-2">
+          <MapIcon /> 31 e/ 694 y 695, Ignacio
           Correa - La Plata - 1909
         </div>
-        <div className="mb-2">
-          <PhoneIcon style={{ marginRight: "10px" }} /> +549 221 234 5678
+        <div className="mb-2 mr-2">
+          <PhoneIcon /> +549 221 234 5678
         </div>
-        <div className="mb-2">
-          <EmailIcon style={{ marginRight: "10px" }} /> info@invictus.dev
+        <div className="mb-2 mr-2">
+          <EmailIcon /> info@invictus.dev
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ProductSingle from "./pages/ProductSingle";
@@ -7,11 +8,12 @@ import Register from "./pages/Register";
 const App = () => {
   return (
     <div className="font-commisioner">
-      {/* <Home /> */}
+      {<Home />}
       {/* <ProductsList/> */}
       {/* <ProductSingle /> */}
       {/* <Register /> */}
-      <Login/>
+      {/* <Login/> */}
+      {/* <Cart/> */}
     </div>
   );
 };

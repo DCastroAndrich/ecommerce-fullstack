@@ -5,10 +5,10 @@ const FilterSingleContainer = () => {
         <div className="flex">
           <span className="text-xl font-extralight">Color</span>
           <div
-            className={`mx-1 h-8 w-8 cursor-pointer rounded-full border bg-white`}
+            className="mx-1 h-8 w-8 cursor-pointer rounded-full border bg-white"
           ></div>
           <div
-            className={`mx-1 h-8 w-8 cursor-pointer rounded-full border bg-black`}
+            className="mx-1 h-8 w-8 cursor-pointer rounded-full border bg-black"
           ></div>
         </div>
 
