@@ -9,9 +9,15 @@ const config = {
   mongoDB: {
     url: `mongodb+srv://${process.env.MONGO_URL}`,
   },
-  srv:{
+  srv: {
     port: process.env.PORT || 7500,
   },
+  crypto: {
+    CIPHER: process.env.CRYPTO_SECRET,
+  },
+  jwt: {
+    SEC_KEY: process.env.JSON_KEY
+  }
 };
 
 export default config;

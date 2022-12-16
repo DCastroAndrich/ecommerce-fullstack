@@ -13,7 +13,7 @@ class DAO {
   async update() {
     throw new CustomError(500, "Method 'update' not implemented in subclass");
   }
-  async DeleteById() {
+  async deleteById() {
     throw new CustomError(
       500,
       "Method 'DeleteById' not implemented in subclass"
