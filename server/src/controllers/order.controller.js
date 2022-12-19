@@ -48,10 +48,10 @@ class OrderController {
   };
   getStatsOrders = async (req, res) => {
     try {
-      const doc = await DAO.getAll(req.query);
+      const doc = await DAO.getStats();
       res.status(200).json(doc);
     } catch (error) {
-      throw new CustomError(500, "Error in 'getAllOrders' method", error);
+      throw new CustomError(500, "Error in 'getStatsOrders' method", error);
     }
   };
 }

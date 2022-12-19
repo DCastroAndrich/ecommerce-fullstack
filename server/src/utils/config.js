@@ -16,8 +16,11 @@ const config = {
     CIPHER: process.env.CRYPTO_SECRET,
   },
   jwt: {
-    SEC_KEY: process.env.JSON_KEY
-  }
+    SEC_KEY: process.env.JSON_KEY,
+  },
+  mercadoPago: {
+    MP_TOKEN: process.env.MP_TOKEN,
+  },
 };
 
 export default config;

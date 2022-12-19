@@ -123,7 +123,7 @@ class OrderDAOMongo extends DAO {
         {
           $project: {
             month: { $month: "$createdAt" },
-            sales: "$amount",
+            sales: "$ammount",
           },
         },
         {

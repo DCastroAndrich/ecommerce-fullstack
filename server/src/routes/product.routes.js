@@ -1,10 +1,6 @@
 import express from "express";
 import ProductController from "../controllers/product.controller.js";
-import {
-  verifyToken,
-  verifyTokenAndAdmin,
-  verifyTokenAndAuthorization,
-} from "../auth/jwt.auth.js";
+import { verifyTokenAndAdmin } from "../auth/jwt.auth.js";
 
 const router = express.Router();
 
