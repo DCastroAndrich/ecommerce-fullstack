@@ -3,7 +3,7 @@ import NavIcons from "../components/NavIcons";
 
 const Navbar = () => {
   return (
-    <div className="flex h-14 flex-row items-center justify-between bg-white text-purple-600">
+    <div className="sticky top-0 z-50 flex h-14 w-full flex-row items-center justify-between text-purple-600">
       <Logo />
       <NavIcons />
     </div>

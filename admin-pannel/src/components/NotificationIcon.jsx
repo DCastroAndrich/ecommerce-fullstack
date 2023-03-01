@@ -1,13 +1,13 @@
 import { Badge } from "@mui/material";
-import NotificationsIcon from "@mui/icons-material/Notifications";
+import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 
 const NotificationIcon = () => {
   return (
-      <div className="cursor-pointer px-5">
-        <Badge badgeContent={2} color="secondary">
-          <NotificationsIcon color="action" />
-        </Badge>
-      </div>
+    <div className="mr-1 cursor-pointer">
+      <Badge badgeContent={2} color="secondary">
+        <NotificationsRoundedIcon color="action" />
+      </Badge>
+    </div>
   );
 };
 
