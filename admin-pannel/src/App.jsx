@@ -1,15 +1,26 @@
-import Navbar from "./layouts/Navbar";
-import Sidebar from "./layouts/Sidebar";
-import Pages from "./pages/Pages";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Root from "./routes/Root";
+import Home from "./layouts/Home";
+import UserList from "./layouts/UserList";
 
 function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
+        <Route index element={<Home />} />
+        <Route path="userlist" element={<UserList />} />
+      </Route>
+    )
+  );
+
   return (
     <div className="h-screen w-full font-commisioner">
-      <Navbar />
-      <div className="mt-3 flex w-full">
-        <Sidebar />
-        <Pages />
-      </div>
+      <RouterProvider router={router} />
     </div>
   );
 }
