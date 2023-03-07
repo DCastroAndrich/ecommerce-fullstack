@@ -60,3 +60,114 @@ export const revenueData = [
       Outcome: 7522,
     },
   ];
+
+  export const usersData = [
+    {
+      id: 1,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 2,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 3,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 4,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 5,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 6,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 7,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 8,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 9,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 10,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 11,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+    {
+      id: 12,
+      username: "Lando Landa",
+      avatar:
+        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+      email: "lando@landa.com",
+      status: "active",
+      transaction: "$1820.00",
+    },
+  ];
