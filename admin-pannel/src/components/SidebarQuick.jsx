@@ -15,9 +15,9 @@ const SidebarQuick = () => {
         >
           <AccountCircleRoundedIcon fontSize="small" className="mr-2" /> Users
         </Link>
-        <li className="m-2 flex w-2/5 cursor-pointer items-center rounded-md p-1 text-lg font-medium hover:bg-purple-400 active:bg-purple-600">
+        <Link to="/productlist" className="m-2 flex w-2/5 cursor-pointer items-center rounded-md p-1 text-lg font-medium hover:bg-purple-400 active:bg-purple-600">
           <StoreRoundedIcon fontSize="small" className="mr-2" /> Products
-        </li>
+        </Link>
         <li className="m-2 flex w-2/5 cursor-pointer items-center rounded-md p-1 text-lg font-medium hover:bg-purple-400 active:bg-purple-600">
           <ReceiptLongRoundedIcon fontSize="small" className="mr-2" />{" "}
           Transactions
