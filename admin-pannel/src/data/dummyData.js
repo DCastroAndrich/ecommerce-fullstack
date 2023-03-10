@@ -171,3 +171,130 @@ export const revenueData = [
       transaction: "$1820.00",
     },
   ];
+  export const productsInfo = [
+    {
+      id: 1,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 2,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 3,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 4,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 5,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 6,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 7,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 8,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 9,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 10,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 11,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+    {
+      id: 12,
+      name: "Adidas Grand Court",
+      img:
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f893c7c14424f6f8f72a98101359ecb_9366/Zapatillas_Grand_Court_Blanco_F36483_01_standard.jpg",
+      stock: 123,
+      status: "active",
+      price: "36000.00",
+    },
+  ];
+
+
+  export const productData = [
+    {
+      name: "January",
+      Sales: 3800,
+    },
+    {
+      name: "February",
+      Sales: 7500,
+    },
+    {
+      name: "March",
+      Sales: 3090,
+    },
+    
+  ];

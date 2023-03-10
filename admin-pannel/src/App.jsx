@@ -10,6 +10,8 @@ import UserList from "./layouts/UserList";
 import UserInfo from "./layouts/UserInfo";
 import UserNew from "./layouts/UserNew";
 import ProductList from "./layouts/ProductList";
+import ProductInfo from "./layouts/ProductInfo";
+import ProductNew from "./layouts/ProductNew";
 
 function App() {
   const router = createBrowserRouter(
@@ -20,6 +22,8 @@ function App() {
         <Route path="userlist/user/:id" element={<UserInfo />} />
         <Route path="newuser" element={<UserNew />} />
         <Route path="productlist" element={<ProductList />} />
+        <Route path="productlist/product/:id" element={<ProductInfo />} />
+        <Route path="newproduct" element={<ProductNew />} />
       </Route>
     )
   );
