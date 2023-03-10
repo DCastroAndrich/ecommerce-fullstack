@@ -6,10 +6,6 @@ import CartProductCard from "../components/CartProductCard";
 const Cart = () => {
   return (
     <div>
-      {/* container */}
-      <Announcement />
-      <NavBar />
-
       {/* wrapper */}
       <div className="p-5">
         <h2 className="text-center text-2xl font-medium">YOUR BAG!</h2>
@@ -75,8 +71,6 @@ const Cart = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

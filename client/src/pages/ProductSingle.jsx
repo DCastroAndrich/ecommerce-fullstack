@@ -1,14 +1,9 @@
-import Announcement from "../layouts/Announcement";
-import NavBar from "../layouts/Navbar";
-import Footer from "../layouts/Footer";
 import AddToCartContainer from "../layouts/AddToCartContainer";
 import FilterSingleContainer from "../layouts/FilterSingleContainer";
 
 const ProductSingle = () => {
   return (
     <div>
-      <Announcement />
-      <NavBar />
       <div className="flex p-14">
         {/* IMG AND INFO CONTAINER */}
         <div className="flex-1">
@@ -32,7 +27,6 @@ const ProductSingle = () => {
           <AddToCartContainer />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -1,13 +1,8 @@
-import Announcement from "../layouts/Announcement";
-import Footer from "../layouts/Footer";
-import NavBar from "../layouts/Navbar";
 import PopularProductsContainer from "../layouts/PopularProductsContainer";
 
 const ProductsList = () => {
   return (
     <>
-      <Announcement />
-      <NavBar />
       <div className="flex justify-between">
         <h2 className="m-5 text-2xl font-semibold">Men Shoes</h2>
         <div className="m-5">
@@ -46,7 +41,6 @@ const ProductsList = () => {
         </div>
       </div>
       <PopularProductsContainer />
-      <Footer />
     </>
   );
 };
