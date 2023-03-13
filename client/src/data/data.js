@@ -26,22 +26,22 @@ export const categories = [
   {
     id: 1,
     img: "https://images.pexels.com/photos/7543641/pexels-photo-7543641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "NIKE",
+    category: "nike",
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/3281608/pexels-photo-3281608.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "ADIDAS",
+    category: "adidas",
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/6719187/pexels-photo-6719187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "PUMA",
+    category: "puma",
   },
   {
     id: 4,
-    img: "https://cdn.shopify.com/s/files/1/0278/8671/4963/collections/0c9b6c8c6097b94938979f3683c63db0_1200x1200.jpg?v=1664187298",
-    title: "NEW BALANCE",
+    img: "https://www.newbalance.com.ar/media/catalog/product/cache/4/image/700x538.46153846154/9df78eab33525d08d6e5fb8d27136e95/z/a/zapatillas-new-balance-574-hombre-ml574egn_nb_02_i_1.jpg",
+    category: "new balance",
   },
 ];
 

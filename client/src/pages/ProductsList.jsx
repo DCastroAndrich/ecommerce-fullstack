@@ -1,22 +1,47 @@
+import { useLocation } from "react-router-dom";
 import PopularProductsContainer from "../layouts/PopularProductsContainer";
+import { useState } from "react";
 
 const ProductsList = () => {
+  const location = useLocation();
+  const category = location.pathname.split("/")[2];
+
+  const [filters, setFilters] = useState({});
+  const [sort, setSort] = useState("newest");
+
+  const handleFilters = (e) => {
+    setFilters({
+      ...filters,
+      [e.target.name]: e.target.value,
+    });
+
+  };
+
   return (
     <>
       <div className="flex justify-between">
         <h2 className="m-5 text-2xl font-semibold">Men Shoes</h2>
         <div className="m-5">
           <span className="text-lg font-medium">Filter Products:</span>
-          <select className="mx-5 p-3">
-            <option disabled selected>
+          <select
+            defaultValue="defaultGenre"
+            name="categories"
+            onChange={handleFilters}
+            className="mx-5 p-3"
+          >
+            <option value="defaultGenre" disabled>
               Genre
             </option>
             <option>Men</option>
             <option>Women</option>
             <option>Kids</option>
           </select>
-          <select>
-            <option disabled selected>
+          <select
+            defaultValue="defaultSize"
+            name="size"
+            onChange={handleFilters}
+          >
+            <option value="defaultSize" disabled>
               Size
             </option>
             <option>6</option>
@@ -30,17 +55,20 @@ const ProductsList = () => {
         </div>
         <div className="m-5">
           <span className="text-lg font-medium">Sort Products:</span>
-          <select className="mx-5 p-3">
-            <option disabled selected>
+          <select
+            defaultValue="defaultNewest"
+            className="mx-5 p-3"
+            onChange={(e) => setSort(e.target.value)}
+          >
+            <option value="newest" >
               Newest
             </option>
-            <option>Price (asc)</option>
-            <option>Price (desc)</option>
-            <option>In Stock</option>
+            <option value="asc">Price (asc)</option>
+            <option value="desc">Price (desc)</option>
           </select>
         </div>
       </div>
-      <PopularProductsContainer />
+      <PopularProductsContainer cat={category} filters={filters} sort={sort} />
     </>
   );
 };
