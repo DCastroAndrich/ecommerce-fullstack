@@ -12,15 +12,16 @@ const ProductsList = () => {
   const handleFilters = (e) => {
     setFilters({
       ...filters,
-      [e.target.name]: e.target.value,
+      [e.target.name]: e.target.value.toLowerCase(),
     });
-
   };
 
   return (
     <>
       <div className="flex justify-between">
-        <h2 className="m-5 text-2xl font-semibold">Men Shoes</h2>
+        <h2 className="m-5 text-2xl font-semibold">
+          {category.charAt(0).toUpperCase() + category.slice(1)}
+        </h2>
         <div className="m-5">
           <span className="text-lg font-medium">Filter Products:</span>
           <select
@@ -34,7 +35,7 @@ const ProductsList = () => {
             </option>
             <option>Men</option>
             <option>Women</option>
-            <option>Kids</option>
+            <option>Unisex</option>
           </select>
           <select
             defaultValue="defaultSize"
@@ -60,9 +61,7 @@ const ProductsList = () => {
             className="mx-5 p-3"
             onChange={(e) => setSort(e.target.value)}
           >
-            <option value="newest" >
-              Newest
-            </option>
+            <option value="newest">Newest</option>
             <option value="asc">Price (asc)</option>
             <option value="desc">Price (desc)</option>
           </select>

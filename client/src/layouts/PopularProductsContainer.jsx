@@ -32,8 +32,6 @@ const PopularProductsContainer = ({ cat, filters, sort }) => {
         )
       );
   }, [products, cat, filters]);
-  console.log(filters);
-  console.log(sort);
 
   useEffect(() => {
     if (sort === "newest") {
@@ -53,9 +51,13 @@ const PopularProductsContainer = ({ cat, filters, sort }) => {
 
   return (
     <div className="flex flex-wrap justify-between p-7">
-      {filteredProducts.map((item) => (
-        <PopularProduct item={item} key={item._id} />
-      ))}
+      {cat
+        ? filteredProducts.map((item) => (
+            <PopularProduct item={item} key={item._id} />
+          ))
+        : products
+            .slice(0, 8)
+            .map((item) => <PopularProduct item={item} key={item._id} />)}
     </div>
   );
 };

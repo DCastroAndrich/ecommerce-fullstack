@@ -1,9 +1,9 @@
-import Announcement from "../layouts/Announcement";
-import Footer from "../layouts/Footer";
-import NavBar from "../layouts/Navbar";
+import { useSelector } from "react-redux";
 import CartProductCard from "../components/CartProductCard";
 
 const Cart = () => {
+  const cart = useSelector((state) => state.cart);
+
   return (
     <div>
       {/* wrapper */}
@@ -36,8 +36,9 @@ const Cart = () => {
             className="my-5 flex flex-col justify-around"
             style={{ flex: 3 }}
           >
-            <CartProductCard />
-            <CartProductCard />
+            {cart.products?.map((product) => (
+              <CartProductCard item={product} />
+            ))}
           </div>
 
           {/* summary */}
@@ -50,7 +51,7 @@ const Cart = () => {
             </h2>
             <div className="my-5 flex justify-between">
               <span>Subtotal</span>
-              <span>$ 50</span>
+              <span>$ {cart.total}</span>
             </div>
             <div className="my-5 flex justify-between">
               <span>Shipping Cost</span>
@@ -62,7 +63,7 @@ const Cart = () => {
             </div>
             <div className="my-5 flex justify-between text-2xl font-medium text-violet-700">
               <span>Total</span>
-              <span>$ 50</span>
+              <span>$ {cart.total} </span>
             </div>
 
             <button className="w-full cursor-pointer rounded  border border-violet-700 bg-violet-700 p-3 font-semibold text-white hover:bg-white hover:text-black">

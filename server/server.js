@@ -31,7 +31,7 @@ app.use("/api/users", new UserRouter().start());
 app.use("/api/products", new ProductRouter().start());
 app.use("/api/carts", new CartRouter().start());
 app.use("/api/orders", new OrderRouter().start());
-app.use("/api/payments", new MercadoPagoRouter().start());
+//app.use("/api/payments", new MercadoPagoRouter().start());
 
 /* SERVER LISTEN */
 

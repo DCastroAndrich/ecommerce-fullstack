@@ -1,8 +1,8 @@
 import CustomError from "../classes/CustomError.class.js";
 import config from "../utils/config.js";
-import mercadopago from "mercadopago";
+//import mercadopago from "mercadopago";
 
-mercadopago.configure({ access_token: config.mercadoPago.MP_TOKEN });
+//mercadopago.configure({ access_token: config.mercadoPago.MP_TOKEN });
 
 class MercadoPagoService {
   constructor() {}
