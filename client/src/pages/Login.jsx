@@ -38,7 +38,11 @@ const Login = () => {
           >
             Login
           </button>
-          {error && <span>Something went wrong...</span>}
+          {error && (
+            <span className="text-red-600 mt-2 font-medium text-lg shadow-black drop-shadow-lg">
+              Oops... Something went wrong...
+            </span>
+          )}
 
           <a className="my-2 cursor-pointer text-xs hover:text-white hover:underline hover:decoration-solid">
             Don't remember your password?

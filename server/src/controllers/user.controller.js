@@ -16,7 +16,14 @@ class UserController {
   loginUser = async (req, res) => {
     try {
       const doc = await DAO.login(req.body);
-      res.status(200).json(doc);
+
+      if (doc === "Wrong Username") {
+        res.status(401).json({ message: "Wrong Username" });
+      } else if (doc === "Wrong Password") {
+        res.status(401).json({ message: "Wrong Password" });
+      } else {
+        res.status(200).json(doc);
+      }
     } catch (error) {
       throw new CustomError(500, "Error in 'loginUser' method", error);
     }

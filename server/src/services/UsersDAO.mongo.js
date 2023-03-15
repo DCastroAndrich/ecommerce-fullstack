@@ -67,7 +67,7 @@ class UserDAOMongo extends DAO {
         username: userdata.username,
       });
       if (!user) {
-        return { message: "Wrong Username" };
+        return  "Wrong Username" ;
       }
 
       const cipherText = await CryptoJS.AES.decrypt(user.password, SEC_HASH);
@@ -75,7 +75,7 @@ class UserDAOMongo extends DAO {
       const psswrd = JSON.parse(cipherText.toString(CryptoJS.enc.Utf8));
 
       if (psswrd != userdata.password) {
-        return { message: "Wrong Password" };
+        return "Wrong Password";
       }
       const accessToken = generateToken(user);
 
