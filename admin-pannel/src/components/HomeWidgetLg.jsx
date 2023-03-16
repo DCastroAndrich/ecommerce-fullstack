@@ -4,13 +4,16 @@ const HomeWidgetLg = () => {
   return (
     <div className="flex w-2/3 flex-col p-5 shadow-md">
       <h3 className="text-xl font-semibold">Lastest transactions</h3>
-      <table className="mt-5 w-full border-separate table-fixed border-spacing-5 ">
+      <table className="mt-5 w-full table-fixed border-separate border-spacing-5 ">
+        <thead>
           <tr className="text-left">
-            <th >Customer</th>
-            <th >Date</th>
-            <th >Amount</th>
-            <th >Status</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Status</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td className="flex items-center ">
               <img
@@ -81,6 +84,7 @@ const HomeWidgetLg = () => {
               <WidgetBtn type="Approved" />
             </td>
           </tr>
+        </tbody>
       </table>
     </div>
   );

@@ -1,10 +1,12 @@
-import { RouterProvider } from "react-router-dom";
-import { router } from "./routes/Router";
+import { BrowserRouter } from "react-router-dom";
+import Router from "./routes/Router";
 
 const App = () => {
   return (
     <div className="font-commisioner">
-      <RouterProvider router={router} />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </div>
   );
 };
